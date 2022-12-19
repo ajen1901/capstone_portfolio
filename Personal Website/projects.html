@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projects</title>
+	<link rel="stylesheet" href="css/foundation.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper hide-for-medium">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html">Fun Stuff</a></li>
+
+            </ul>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <button type="button" class="cell large-auto button" data-toggle="offCanvas">Menu</button>
+        </div>
+        
+        </div>
+        <div class="">
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x hide-for-small-only">
+                    
+                    <div class="cell medium-auto" style="text-align: center;"><a href="index.html">Home</a></div>
+                    <div class="cell medium-auto" style="text-align: center;"><a href="projects.html">Projects</a></div>
+                    <div class="cell medium-auto" style="text-align: center;"><a href="resume.html">Resume</a></div>
+                    <div class="cell medium-auto" style="text-align: center;"><a href="fun.html">Fun Stuff</a></div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="cell medium-auto"></div>
+                    <div class="cell medium-auto"><h1>Projects</h1></div>
+                    <div class="cell medium-auto"></div>
+                    <div class="cell medium-auto"></div>
+                    
+                </div>
+                
+                <div class="show-for-large">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell large-auto"></div>
+                        <div class="cell large-auto">
+                            For my first computer science course, my final assignment was to create a working model of Conway's Game of Life, a simulator that shows
+                            cells in two different states, alive or dead, based on the last state of it's surrounding cells. A cell is set as alive if it was previously
+                            alive and it has 2 or 3 live neighbors, or if the cell was previously dead and has exactly 3 live neighbors.
+                        </div>
+                        <div class="cell large-auto">
+                            <img src="proj.jpg">
+                        </div>
+                        <div class="cell large-auto"></div>
+                    </div>
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto"></div>
+                        <div class="cell large-auto">
+                            <img src="projexinfosec.JPG">
+                        </div>
+                        <div class="cell large-auto">
+                            When I took Information Security, my final assignment was to create a site using an information grabbing technique designed to 
+                            trick users into giving away some of their browser history using font colors. It works by showing un-clickable links, represented by random
+                            letters, setting the previously clicked color to the background color of the site, and requesting that the user submit the letters that they see,
+                            presented as a captcha. 
+                        </div>
+                        <div class="cell medium-auto"></div>
+                    </div>
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto"></div>
+                        <div class="cell large-auto">
+                            When I worked at AWS, my project was to create various succinct cheatsheets for different data streaming services that AWS provides.
+                            While this was technically an internal project, the information contained on the sheets is public knowledge. Regardless, I am not comfortable
+                            showing the actual cheatsheets publicly, so I have displayed the template I used to create them instead.
+                        </div>
+                        <div class="cell large-auto">
+                            <img src="projexaws.JPG">
+                        </div>
+                        <div class="cell medium-auto"></div>
+                    </div>
+                </div>
+
+                <div class="hide-for-large">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell small-auto"></div>
+                        <div class="cell small-auto">
+                            For my first computer science course, my final assignment was to create a working model of Conway's Game of Life, a simulator that shows
+                            cells in two different states, alive or dead, based on the last state of it's surrounding cells. A cell is set as alive if it was previously
+                            alive and it has 2 or 3 live neighbors, or if the cell was previously dead and has exactly 3 live neighbors.
+                        </div>
+                        <div class="cell small-auto">
+                            <img src="proj.jpg">
+                        </div>
+                        <div class="cell small-auto"></div>
+                    </div>
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell small-auto"></div>
+                        <div class="cell small-auto">
+                            When I took Information Security, my final assignment was to create a site using an information grabbing technique designed to 
+                            trick users into giving away some of their browser history using font colors. It works by showing un-clickable links, represented by random
+                            letters, setting the previously clicked color to the background color of the site, and requesting that the user submit the letters that they see,
+                            presented as a captcha. 
+                        </div>
+                        <div class="cell small-auto">
+                            <img src="projexinfosec.JPG">
+                        </div>
+                        
+                        <div class="cell small-auto"></div>
+                    </div>
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell small-auto"></div>
+                        <div class="cell small-auto">
+                            When I worked at AWS, my project was to create various succinct cheatsheets for different data streaming services that AWS provides.
+                            While this was technically an internal project, the information contained on the sheets is public knowledge. Regardless, I am not comfortable
+                            showing the actual cheatsheets publicly, so I have displayed the template I used to create them instead.
+                        </div>
+                        <div class="cell small-auto">
+                            <img src="projexaws.JPG">
+                        </div>
+                        <div class="cell medium-auto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
