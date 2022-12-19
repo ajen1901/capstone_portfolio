@@ -1,0 +1,49 @@
+{
+  "name": "stpaul-crime",
+  "version": "1.0.0",
+  "description": "RESTful Web Server and Single Page Application",
+  "author": {
+    "name": "Joseph Schoen",
+    "email": "scho7642@stthomas.edu"
+  },
+  "contributors": [
+    {
+      "name": "Tara Sothy",
+      "email": ""
+    },
+    {
+      "name": "Hayden Richards",
+      "email": ""
+    },
+    {
+      "name": "Audrey Jenkins",
+      "email": ""
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@vuepic/vue-datepicker": "^3.6.3",
+    "axios": "^1.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jquery": "^3.6.1",
+    "save": "^2.9.0",
+    "sqlite3": "^5.1.4",
+    "vue": "^3.2.45",
+    "vue-axios": "^3.5.2",
+    "vue-date-pick": "^1.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.4"
+  }
+}
